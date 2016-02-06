@@ -1,0 +1,191 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/** END OF RESET **/
+
+.clear {
+    clear: both;
+}
+
+body {
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 3em;
+}
+
+nav {
+    text-align: center;
+    margin: auto 0;
+    margin-bottom: 3%;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 2em;
+    font-size: 1em;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+}
+
+.projects {
+    align-content: center;
+}
+
+.projects a {
+    background: #a3a555;
+    display: block;
+    position: relative;
+    margin-bottom: 15%;
+    align-content: center;
+    text-decoration: none;
+}
+
+.projects a img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: opacity .5s ease;
+}
+
+.projects a:hover img {
+    opacity: 0;
+}
+
+.projects a div {
+    color: #fff;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    overflow: hidden;
+}
+
+.projects a:hover div {
+    height: 62.5%;
+}
+
+.projects a div h2 {
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    padding: 5% 5% 0 5%;
+}
+.projects a div p {
+    text-align: center;
+    padding-top: 0.2em;
+}
+
+.title {
+    text-align: center;
+}
+
+#proj-name {
+    padding-top: 5%;
+    font-size: 3em;
+}
+
+section {
+    font-size: 1.3em;
+    padding-top: 3em;
+    display: block;
+    line-height: 1.5em;
+}
+
+section h3 {
+    font-weight: 700;
+}
+
+#fb-material img {
+    width: 100%;
+    padding: 2.5% 0 2.5% 0;
+}
+
+#print-material img {
+    width: 50%;   
+}
+
+.project-desc {
+    width: 100%;
+    text-align: center;
+    display: block;
+    background-color: #ccc;
+    margin-top: 2em;
+    padding: 2em;
+}
+
+#ecosystem {
+    display: block;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    height: 6em;
+    background-color: #333;
+    margin-top: 1%;
+}
+
+footer small {
+    display: block;
+    color: #fff;
+}
