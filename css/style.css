@@ -120,7 +120,7 @@ hr {
 }
 
 .projects a {
-    background: #a3a555;
+    background: #00b1cc;
     display: block;
     position: relative;
     margin-bottom: 15%;
@@ -132,7 +132,7 @@ hr {
     display: block;
     width: 100%;
     height: auto;
-    transition: opacity .5s ease;
+    transition: opacity .25s ease;
 }
 
 .projects a:hover img {
