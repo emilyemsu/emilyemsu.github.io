@@ -57,11 +57,12 @@ table {
 }
 
 a {
-    color: #000;
+    color: #00b1cc;
 }
 
 a:hover {
-    color: #000;
+    color: #01798b;
+    text-decoration: none;
     
 }
 
@@ -97,6 +98,7 @@ nav ul li {
 }
 
 nav ul li a {
+    color: #000;
     text-decoration: none;
 }
 
@@ -176,7 +178,9 @@ hr {
 }
 
 .back {
- 
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    display: flex;
 }
 
 #proj-name {
