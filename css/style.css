@@ -52,27 +52,42 @@ table {
     clear: both;
 }
 
+a {
+    color: #000;
+}
+
+a:hover {
+    color: #000;
+    
+}
+
 body {
     font-family: 'Source Sans Pro', Helvetica, sans-serif;
+    background: #f3f3f3;
 }
 
 header h1 {
     text-align: center;
     font-size: 2em;
     text-transform: uppercase;
-    font-weight: 700;
     padding-top: 3em;
+    font-family: 'Museo Sans';
+    font-weight: 500;
+    letter-spacing: 5px;
 }
 
 nav {
     text-align: center;
     margin: auto 0;
-    margin-bottom: 3%;
+    font-family: 'Museo Sans';
+    font-weight: 500;
+    text-transform: uppercase;
 }
 
 nav ul li {
     display: inline-block;
     padding: 2em;
+    padding-top: 1em;
     font-size: 1em;
     text-align: center;
 }
@@ -85,8 +100,23 @@ nav ul li a:hover {
     text-decoration: none;
 }
 
+#selected {
+    color: #00b1cc;
+}
+
+hr { 
+   width: 49%;
+    display: block;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
 .projects {
     align-content: center;
+    padding-top: 1em;
 }
 
 .projects a {
@@ -127,28 +157,53 @@ nav ul li a:hover {
 .projects a div h2 {
     text-align: center;
     font-size: 1.2em;
+    font-weight: 400;
     text-transform: uppercase;
     padding: 5% 5% 0 5%;
 }
 .projects a div p {
     text-align: center;
     padding-top: 0.2em;
+    font-weight: 300;
 }
 
 .title {
     text-align: center;
 }
 
+.back {
+ 
+}
+
 #proj-name {
     padding-top: 5%;
-    font-size: 3em;
+    font-size: 2.5em;
+    font-family: 'Museo Sans';
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
 }
 
 section {
-    font-size: 1.3em;
+    font-size: 1em;
     padding-top: 3em;
     display: block;
     line-height: 1.5em;
+}
+
+#about {
+    padding-top: 0;
+    font-size: 1em;
+    padding-bottom: 2em;
+}
+
+#about img {
+    padding-top: 1.5em;
+}
+
+#about h2 {
+    font-weight: 700;
 }
 
 section h3 {
@@ -160,14 +215,22 @@ section h3 {
     padding: 2.5% 0 2.5% 0;
 }
 
-#print-material img {
-    width: 50%;   
+.biz-card {
+    width: 30%;
+}
+    
+#poster {
+    width: 50%;
+}
+
+#ecosystem-pic {
+    width: 40%;
 }
 
 .project-desc {
     width: 100%;
-    text-align: center;
     display: block;
+    text-align: center;
     background-color: #ccc;
     margin-top: 2em;
     padding: 2em;
@@ -181,11 +244,50 @@ footer {
     width: 100%;
     text-align: center;
     height: 6em;
-    background-color: #333;
     margin-top: 1%;
+}
+
+#insta {
+    width: 36px;
+    height: 36px;
+    background: url('../images/icons/instagram.png') no-repeat top left;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#insta:hover {
+    background: url('../images/icons/instagram-hover.png') no-repeat top left;
+}
+
+#tumblr {
+    width: 36px;
+    height: 36px;
+    background: url('../images/icons/tumblr.png') no-repeat top left;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#tumblr:hover {
+    background: url('../images/icons/tumblr-hover.png') no-repeat top left;
+}
+
+#linkedin {
+    width: 36px;
+    height: 36px;
+    background: url('../images/icons/linkedin.png') no-repeat top left;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#linkedin:hover {
+    background: url('../images/icons/linkedin-hover.png') no-repeat top left;
 }
 
 footer small {
     display: block;
-    color: #fff;
+    color: #444;
+    font-size: 0.75em;
+    margin-top: 1em;
 }
