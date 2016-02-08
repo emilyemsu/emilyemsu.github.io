@@ -302,6 +302,7 @@ footer {
     background: url('../images/icons/email.png') no-repeat top left;
     display: inline-block;
     vertical-align: top;
+    margin-left: 1em;
 }
 
 #mail:hover {
