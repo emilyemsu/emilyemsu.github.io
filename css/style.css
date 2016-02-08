@@ -296,6 +296,22 @@ footer {
     background: url('../images/icons/linkedin-hover.png') no-repeat top left;
 }
 
+#mail {
+    width: 36px;
+    height: 36px;
+    background: url('../images/icons/email.png') no-repeat top left;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#mail:hover {
+    width: 36px;
+    height: 36px;
+    background: url('../images/icons/email-hover.png') no-repeat top left;
+    display: inline-block;
+    vertical-align: top;
+}
+
 footer small {
     display: block;
     color: #444;
