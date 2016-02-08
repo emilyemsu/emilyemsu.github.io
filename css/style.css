@@ -194,7 +194,7 @@ hr {
 }
 
 section {
-    font-size: 1em;
+    font-size: 1.2em;
     padding-top: 3em;
     display: block;
     line-height: 1.5em;
@@ -239,9 +239,12 @@ section h3 {
     width: 100%;
     display: block;
     text-align: center;
-    background-color: #ccc;
     margin-top: 2em;
     padding: 2em;
+}
+
+#proj-desc-line {
+    width: 66.66%;
 }
 
 #ecosystem {
