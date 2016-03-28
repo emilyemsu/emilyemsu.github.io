@@ -1,0 +1,149 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+<title>Best Game</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="mturk.js"></script>
+
+
+<script>
+var piecex = 150;
+var piecey = 250;
+var obstacles = [[0,0,0,0,0,0],
+                 [0,0,0,0,0,0],
+                 [0,0,0,0,0,0],
+                 [0,0,0,0,0,0],
+                 [0,0,0,0,0,0],
+                 [0,0,0,0,0,0]]
+var stillGoing = true;
+var total_reward = 0;
+var key_presses = 0;
+var time_spent = 0;
+
+$(document).ready(function() {
+  var gameboard = $("<div id='gameboard'></div>");
+  $(document.body).append(gameboard);
+  var piece = $("<div class='piece'></div>");
+  $(gameboard).append(piece);
+  var reward = $("<div id='reward'>0</div>"); 
+  $(document.body).append(reward);
+  $(document).keydown(function(e) {
+    if (stillGoing) {
+      if(e.keyCode==37) {
+        key_presses++;
+        // left arrow clicked
+        if(piecex==0) {
+          piecex = 250;
+        }
+        else {
+          piecex -= 50;
+        }
+        
+      } else if(e.keyCode == 39) {
+        key_presses++;
+      // right arrow clicked
+        if(piecex==250) {
+          piecex = 0;
+        }
+        else {
+          piecex += 50;
+        }
+      }
+      $(".piece").css("left", piecex + "px");
+
+      index = parseInt($(".piece").css("left").replace(/[^-\d\.]/g, ''))/50;
+      if (obstacles[5][index] == 1) {
+        stillGoing = false;
+        $("#keyPresses").val(key_presses);
+        $("#timeSpent").val(time_spent);
+        $("#rewardCollected").val(total_reward/1000);
+        window.alert("you lose :(")
+      }
+    }
+  });
+  setInterval(function() {
+    if (stillGoing) {
+      time_spent += 1000;
+      total_reward += 1;
+      $("#reward").html("$" + total_reward/1000);
+      for (i = obstacles.length-1; i > 0; i--) {
+        for (j = 0; j < 6; j++) {
+        obstacles[i][j] = obstacles[i - 1][j];        
+        }
+      }
+      for (j = 0; j < 6; j++) {
+        checker = Math.floor(Math.random() * 5);
+        if (checker == 0) {
+          obstacles[0][j] = 1; 
+        } else {
+          obstacles[0][j] = 0;
+        }
+      }
+      $(".obstacle").remove();
+      for (i = 0; i < obstacles.length; i++) {
+        for (j = 0; j < 6; j++) {
+          if (obstacles[i][j] == 1) {
+            obstacle = $("<div id='obstacle" + (i*6+j) + "' class='obstacle'></div>");
+            $("#gameboard").append(obstacle);
+            $("#obstacle" + (i*6+j)).css("left", j * 50 + "px");
+            $("#obstacle" + (i*6+j)).css("top", i * 50 + "px");
+          }
+        }
+      }
+      pieceIndex = parseInt($(".piece").css("left").replace(/[^-\d\.]/g, ''))/50;
+      if (obstacles[5][pieceIndex] == 1 || total_reward == 2 * 10000) {
+        stillGoing = false;
+        $("#keyPresses").val(key_presses);
+        $("#timeSpent").val(time_spent);
+        $("#rewardCollected").val(total_reward/1000);
+        window.alert("you lose :(")
+      }
+    }
+  }, 1000);
+})
+</script>
+
+
+<style>
+#gameboard {
+  /*background-color: gray;*/
+  background-image: url("space.jpg");
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+
+#reward {
+  border: 3px solid black;
+  width: 150px;
+  height: 50px;
+  position: relative;
+  left: 400px;
+  top: -250px;
+  text-align: center;
+  font-size: 2.5em;
+  font-family: Helvetica;
+}
+
+.obstacle {
+  background-image: url("rock.png");
+  /*background-color: #000;*/
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+
+.piece {
+  /*background-color: #AAF;*/
+  background-image: url("rocket.png");
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 150px;
+  top: 250px;
+}
+</style>
+</head>
+<body>
+</body>
+</html>
