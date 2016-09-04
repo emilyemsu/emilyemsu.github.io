@@ -33,11 +33,11 @@ a{
 	-ms-transition: all 0.2s ease-in;
 	-o-transition: all 0.2s ease-in;
 	transition: all 0.2s ease-in; 
-  color: #0A93CC;
+	border-bottom:1px solid #dedede;
 }
 
-a:hover {
-  color: #044059;
+a:focus {
+  outline:none;
 }
 
 strong{
