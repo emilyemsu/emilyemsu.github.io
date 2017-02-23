@@ -963,8 +963,8 @@ footer img {
 .iota-top-bar {
     color: #333;
     padding: 150px 0 150px;
-    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/iota/concept%20map%20with%20potential%20features.png);
-    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/iota/concept%20map%20with%20potential%20features.png);
+    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .9)), url(../img/iota/concept%20map%20with%20potential%20features.png);
+    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .9)), url(../img/iota/concept%20map%20with%20potential%20features.png);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
