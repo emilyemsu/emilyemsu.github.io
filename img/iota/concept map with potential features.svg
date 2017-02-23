@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2418px" height="1808px" viewBox="0 0 2418 1808" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>concept map with potential features</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="2062" y="1096" width="316" height="560"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="316" height="560" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="concept-map" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="concept-map-with-potential-features">
+            <path d="M1573.5,952.5 L688.5,316.5" id="Line" stroke="#D5D5D5" stroke-width="5" stroke-linecap="square" stroke-dasharray="5,10" transform="translate(1131.000000, 634.500000) scale(-1, 1) translate(-1131.000000, -634.500000) "></path>
+            <path d="M1460.5,1063.5 L537.5,1286.5" id="Line" stroke="#FCADAD" stroke-width="5" stroke-linecap="square" stroke-dasharray="5,10" opacity="0.5" transform="translate(999.000000, 1175.000000) scale(-1, 1) translate(-999.000000, -1175.000000) "></path>
+            <path d="M1563.5,314.5 L1612.5,1216.5" id="Line" stroke="#FCADAD" stroke-width="5" stroke-linecap="square" stroke-dasharray="5,10" opacity="0.5" transform="translate(1588.000000, 765.500000) scale(-1, 1) translate(-1588.000000, -765.500000) "></path>
+            <path d="M1660.5,694.5 L1991.5,326.5" id="Line" stroke="#D5D5D5" stroke-width="5" stroke-linecap="square" stroke-dasharray="5,10" transform="translate(1826.000000, 510.500000) scale(-1, 1) translate(-1826.000000, -510.500000) "></path>
+            <ellipse id="Oval-2" fill-opacity="0.5" fill="#D8D8D8" cx="537" cy="980.5" rx="202" ry="115.5"></ellipse>
+            <ellipse id="Oval-2" fill-opacity="0.5" fill="#D8D8D8" cx="1754" cy="1139.5" rx="130" ry="74.5"></ellipse>
+            <ellipse id="Oval-2" fill-opacity="0.5" fill="#499DFF" cx="2215" cy="1386.5" rx="130" ry="74.5"></ellipse>
+            <text id="quick" font-family="Lato-Bold, Lato" font-size="70" font-weight="bold" fill="#4A4A4A">
+                <tspan x="449" y="999">quick</tspan>
+            </text>
+            <ellipse id="Oval-2" fill-opacity="0.5" fill="#D8D8D8" cx="561" cy="508.5" rx="202" ry="115.5"></ellipse>
+            <text id="friendly" font-family="Lato-Bold, Lato" font-size="70" font-weight="bold" fill="#4A4A4A">
+                <tspan x="436" y="531">friendly</tspan>
+            </text>
+            <ellipse id="Oval-2" fill-opacity="0.5" fill="#D8D8D8" cx="1424" cy="505.5" rx="202" ry="115.5"></ellipse>
+            <text id="contextually-aware" font-family="Lato-Bold, Lato" font-size="50" font-weight="bold" fill="#4A4A4A">
+                <tspan x="1284" y="501">contextually </tspan>
+                <tspan x="1354.7" y="561">aware</tspan>
+            </text>
+            <ellipse id="Oval-2" fill-opacity="0.5" fill="#D8D8D8" cx="1424" cy="974.5" rx="202" ry="115.5"></ellipse>
+            <text id="organized" font-family="Lato-Bold, Lato" font-size="70" font-weight="bold" fill="#4A4A4A">
+                <tspan x="1269.3975" y="993">organized</tspan>
+            </text>
+            <ellipse id="Oval-2" fill-opacity="0.5" fill="#D8D8D8" cx="958" cy="1074.5" rx="202" ry="115.5"></ellipse>
+            <text id="collaborative" font-family="Lato-Bold, Lato" font-size="50" font-weight="bold" fill="#4A4A4A">
+                <tspan x="812.0875" y="1093">collaborative</tspan>
+            </text>
+            <path d="M762.5,663.5 L673,554" id="Line" stroke="#979797" stroke-width="5" stroke-linecap="square"></path>
+            <path d="M658.5,925.5 L755.5,822.5" id="Line" stroke="#979797" stroke-width="5" stroke-linecap="square"></path>
+            <path d="M1169.5,663.5 L1275.5,546.5" id="Line" stroke="#979797" stroke-width="5" stroke-linecap="square"></path>
+            <path d="M1179.5,801.5 L1287.5,920.5" id="Line" stroke="#979797" stroke-width="5" stroke-linecap="square"></path>
+            <path d="M966.5,859.5 L966.5,978.5" id="Line" stroke="#979797" stroke-width="5" stroke-linecap="square"></path>
+            <path d="M1664.5,1106.5 L1582.5,1023.5" id="Line" stroke="#979797" stroke-width="5" stroke-linecap="square"></path>
+            <text id="structured" font-family="Lato-Bold, Lato" font-size="40" font-weight="bold" fill="#4A4A4A">
+                <tspan x="1659.57" y="1150">structured</tspan>
+            </text>
+            <ellipse id="Oval-2" fill-opacity="0.5" fill="#D8D8D8" cx="359" cy="315.5" rx="130" ry="74.5"></ellipse>
+            <text id="familiar" font-family="Lato-Bold, Lato" font-size="30" font-weight="bold" fill="#4A4A4A">
+                <tspan x="307.085" y="326">familiar </tspan>
+            </text>
+            <text id="desired-outcomes" font-family="Lato-Bold, Lato" font-size="30" font-weight="bold" fill="#4A4A4A">
+                <tspan x="2165.1175" y="1383">desired</tspan>
+                <tspan x="2149.255" y="1419">outcomes</tspan>
+            </text>
+            <ellipse id="Oval-2" fill-opacity="0.5" fill="#F95C5C" cx="2215" cy="1569.5" rx="130" ry="74.5"></ellipse>
+            <text id="potential-features" font-family="Lato-Bold, Lato" font-size="30" font-weight="bold" fill="#4A4A4A">
+                <tspan x="2154.3525" y="1564">potential</tspan>
+                <tspan x="2159.34" y="1600">features</tspan>
+            </text>
+            <ellipse id="Oval-2" fill-opacity="0.5" fill="#F95C5C" cx="524" cy="178.5" rx="130" ry="74.5"></ellipse>
+            <text id="favorites" font-family="Lato-Bold, Lato" font-size="30" font-weight="bold" fill="#4A4A4A">
+                <tspan x="462.3075" y="186">favorites</tspan>
+            </text>
+            <ellipse id="Oval-2" fill-opacity="0.5" fill="#499DFF" cx="465" cy="1360.5" rx="130" ry="74.5"></ellipse>
+            <text id="make-decisions" font-family="Lato-Bold, Lato" font-size="40" font-weight="bold" fill="#4A4A4A">
+                <tspan x="416.57" y="1354">make </tspan>
+                <tspan x="382.31" y="1402">decisions</tspan>
+            </text>
+            <ellipse id="Oval-2" fill-opacity="0.5" fill="#D8D8D8" cx="2215" cy="1203.5" rx="130" ry="74.5"></ellipse>
+            <text id="desired-descriptors" font-family="Lato-Bold, Lato" font-size="30" font-weight="bold" fill="#4A4A4A">
+                <tspan x="2165.1175" y="1200">desired</tspan>
+                <tspan x="2139.0325" y="1236">descriptors </tspan>
+            </text>
+            <ellipse id="Oval-2" fill-opacity="0.5" fill="#D8D8D8" cx="1236" cy="1245.5" rx="130" ry="74.5"></ellipse>
+            <path d="M1146.5,1212.5 L1064.5,1129.5" id="Line" stroke="#979797" stroke-width="5" stroke-linecap="square"></path>
+            <text id="sharing" font-family="Lato-Bold, Lato" font-size="40" font-weight="bold" fill="#4A4A4A">
+                <tspan x="1171.11" y="1256">sharing</tspan>
+            </text>
+            <ellipse id="Oval-2" fill-opacity="0.5" fill="#D8D8D8" transform="translate(693.000000, 1232.500000) scale(-1, 1) translate(-693.000000, -1232.500000) " cx="693" cy="1232.5" rx="130" ry="74.5"></ellipse>
+            <text id="negotiate" font-family="Lato-Bold, Lato" font-size="40" font-weight="bold" fill="#4A4A4A">
+                <tspan x="607.16" y="1243">negotiate</tspan>
+            </text>
+            <path d="M845.5,1213.5 L763.5,1130.5" id="Line" stroke="#979797" stroke-width="5" stroke-linecap="square" transform="translate(804.500000, 1172.000000) scale(-1, 1) translate(-804.500000, -1172.000000) "></path>
+            <path d="M634.5,1339.5 L575.5,1278.5" id="Line" stroke="#979797" stroke-width="5" stroke-linecap="square" transform="translate(605.000000, 1309.000000) scale(-1, 1) translate(-605.000000, -1309.000000) "></path>
+            <ellipse id="Oval-2" fill-opacity="0.5" fill="#499DFF" cx="1044" cy="1368.5" rx="130" ry="74.5"></ellipse>
+            <text id="mutual-understanding" font-family="Lato-Bold, Lato" font-size="30" font-weight="bold" fill="#4A4A4A">
+                <tspan x="996.5925" y="1362">mutual</tspan>
+                <tspan x="946.605" y="1398">understanding</tspan>
+            </text>
+            <ellipse id="Oval-2" fill="#FCADAD" cx="1504" cy="134.5" rx="130" ry="74.5"></ellipse>
+            <ellipse id="Oval-2-Copy" fill="#FCADAD" cx="1823" cy="118.5" rx="130" ry="74.5"></ellipse>
+            <text id="task-reminders" font-family="Lato-Bold, Lato" font-size="35" font-weight="bold" fill="#4A4A4A">
+                <tspan x="1470.2675" y="128">task</tspan>
+                <tspan x="1423.44625" y="170">reminders</tspan>
+            </text>
+            <text id="to-dos" font-family="Lato-Bold, Lato" font-size="35" font-weight="bold" fill="#4A4A4A">
+                <tspan x="1772.425" y="128">to-dos</tspan>
+            </text>
+            <ellipse id="Oval-2" fill-opacity="0.5" fill="#499DFF" cx="1625" cy="280.5" rx="130" ry="74.5"></ellipse>
+            <text id="resumption" font-family="Lato-Bold, Lato" font-size="35" font-weight="bold" fill="#4A4A4A">
+                <tspan x="1534.3575" y="290">resumption</tspan>
+            </text>
+            <ellipse id="Oval-2" fill-opacity="0.5" fill="#499DFF" cx="1795" cy="471.5" rx="130" ry="74.5"></ellipse>
+            <text id="support-search-ambig" font-family="Lato-Bold, Lato" font-size="30" font-weight="bold" fill="#4A4A4A">
+                <tspan x="1745.9925" y="446">support</tspan>
+                <tspan x="1754.265" y="482">search</tspan>
+                <tspan x="1731.24" y="518">ambiguity</tspan>
+            </text>
+            <ellipse id="Oval-2" fill-opacity="0.5" fill="#499DFF" cx="1721" cy="658.5" rx="130" ry="74.5"></ellipse>
+            <text id="understand-progress" font-family="Lato-Bold, Lato" font-size="35" font-weight="bold" fill="#4A4A4A">
+                <tspan x="1635.12" y="645">understand</tspan>
+                <tspan x="1657.1525" y="687">progress</tspan>
+            </text>
+            <ellipse id="Oval-2" fill-opacity="0.5" fill="#499DFF" cx="2014" cy="733.5" rx="130" ry="74.5"></ellipse>
+            <text id="learning" font-family="Lato-Bold, Lato" font-size="35" font-weight="bold" fill="#4A4A4A">
+                <tspan x="1956.3975" y="742">learning</tspan>
+            </text>
+            <path d="M1213.5,1347.5 L1154.5,1286.5" id="Line" stroke="#979797" stroke-width="5" stroke-linecap="square" transform="translate(1184.000000, 1317.000000) scale(-1, 1) translate(-1184.000000, -1317.000000) "></path>
+            <path d="M1537.5,249.5 L1573.5,189.5" id="Line" stroke="#979797" stroke-width="5" stroke-linecap="square" transform="translate(1555.500000, 219.500000) scale(-1, 1) translate(-1555.500000, -219.500000) "></path>
+            <path d="M1597.5,128.5 L1718.5,128.5" id="Line" stroke="#979797" stroke-width="5" stroke-linecap="square" transform="translate(1658.000000, 128.500000) scale(-1, 1) translate(-1658.000000, -128.500000) "></path>
+            <path d="M1680.5,172.5 L1781.5,243.5" id="Line" stroke="#979797" stroke-width="5" stroke-linecap="square" transform="translate(1731.000000, 208.000000) scale(-1, 1) translate(-1731.000000, -208.000000) "></path>
+            <path d="M1254.5,508.5 L734.5,508.5" id="Line" stroke="#D5D5D5" stroke-width="5" stroke-linecap="square" stroke-dasharray="5,10" transform="translate(994.500000, 508.500000) scale(-1, 1) translate(-994.500000, -508.500000) "></path>
+            <path d="M398.5,425.5 L464.5,361.5" id="Line" stroke="#979797" stroke-width="5" stroke-linecap="square" transform="translate(431.500000, 393.500000) scale(-1, 1) translate(-431.500000, -393.500000) "></path>
+            <path d="M481.5,270.5 L425.5,216.5" id="Line" stroke="#979797" stroke-width="5" stroke-linecap="square" transform="translate(453.500000, 243.500000) scale(-1, 1) translate(-453.500000, -243.500000) "></path>
+            <ellipse id="Oval-2" fill-opacity="0.5" fill="#F95C5C" cx="264" cy="833.5" rx="130" ry="74.5"></ellipse>
+            <text id="reading-list" font-family="Lato-Bold, Lato" font-size="30" font-weight="bold" fill="#4A4A4A">
+                <tspan x="190.2125" y="848">reading list</tspan>
+            </text>
+            <ellipse id="Oval-2" fill-opacity="0.5" fill="#F95C5C" cx="475" cy="732.5" rx="130" ry="74.5"></ellipse>
+            <text id="page-bubbles" font-family="Lato-Bold, Lato" font-size="30" font-weight="bold" fill="#4A4A4A">
+                <tspan x="387.175" y="747">page bubbles</tspan>
+            </text>
+            <path d="M397.5,929.5 L341.5,875.5" id="Line" stroke="#979797" stroke-width="5" stroke-linecap="square"></path>
+            <path d="M1579.5,414.5 L1506.5,307.5" id="Line" stroke="#979797" stroke-width="5" stroke-linecap="square" transform="translate(1543.000000, 361.000000) scale(-1, 1) translate(-1543.000000, -361.000000) "></path>
+            <path d="M1692.5,501.5 L1591.5,478.5" id="Line" stroke="#979797" stroke-width="5" stroke-linecap="square" transform="translate(1642.000000, 490.000000) scale(-1, 1) translate(-1642.000000, -490.000000) "></path>
+            <path d="M1621.5,576.5 L1542.5,644.5" id="Line" stroke="#979797" stroke-width="5" stroke-linecap="square" transform="translate(1582.000000, 610.500000) scale(-1, 1) translate(-1582.000000, -610.500000) "></path>
+            <path d="M1924.5,673.5 L1815.5,732.5" id="Line" stroke="#979797" stroke-width="5" stroke-linecap="square" transform="translate(1870.000000, 703.000000) scale(-1, 1) translate(-1870.000000, -703.000000) "></path>
+            <ellipse id="Oval" fill-opacity="0.6" fill="#4A4A4A" cx="965" cy="733" rx="315" ry="163"></ellipse>
+            <text id="iota" font-family="Lato-Black, Lato" font-size="150" font-weight="700" fill="#FFFFFF">
+                <tspan x="830" y="772">iota</tspan>
+            </text>
+            <path d="M447.5,900.5 L447.5,777.5" id="Line" stroke="#979797" stroke-width="5" stroke-linecap="square"></path>
+            <path d="M325.5,788.5 L379.5,760.5" id="Line" stroke="#979797" stroke-width="5" stroke-linecap="square"></path>
+            <path d="M369.5,1449.5 L313.5,1395.5" id="Line" stroke="#979797" stroke-width="5" stroke-linecap="square" transform="translate(341.500000, 1422.500000) scale(-1, 1) translate(-341.500000, -1422.500000) "></path>
+            <ellipse id="Oval-2" fill-opacity="0.5" fill="#F95C5C" cx="211" cy="1443.5" rx="130" ry="74.5"></ellipse>
+            <text id="side-by-side-compari" font-family="Lato-Bold, Lato" font-size="30" font-weight="bold" fill="#4A4A4A">
+                <tspan x="135.03" y="1433">side by side </tspan>
+                <tspan x="126.495" y="1469">comparisons</tspan>
+            </text>
+            <ellipse id="Oval-2" fill-opacity="0.5" fill="#F95C5C" cx="1563" cy="1279.5" rx="130" ry="74.5"></ellipse>
+            <text id="note-taking" font-family="Lato-Bold, Lato" font-size="30" font-weight="bold" fill="#4A4A4A">
+                <tspan x="1495.4525" y="1295">note-taking</tspan>
+            </text>
+            <text id="IOTA-CONCEPT-&amp;-FEATU" font-family="Lato-Black, Lato" font-size="80" font-weight="700" fill="#4A4A4A">
+                <tspan x="99" y="1735">IOTA CONCEPT &amp; FEATURE MAP</tspan>
+            </text>
+            <text id="Feb-2017" font-family="Lato-Bold, Lato" font-size="30" font-weight="bold" fill="#9B9B9B">
+                <tspan x="1335" y="1734">Feb 2017</tspan>
+            </text>
+            <path d="M1959.5,1348.5 L548.5,902.5" id="Line" stroke="#D5D5D5" stroke-width="5" stroke-linecap="square" stroke-dasharray="5,10" transform="translate(1254.000000, 1125.500000) scale(-1, 1) translate(-1254.000000, -1125.500000) "></path>
+            <ellipse id="Oval-2" fill-opacity="0.5" fill="#499DFF" cx="2051" cy="905.5" rx="130" ry="74.5"></ellipse>
+            <text id="action/-resolution" font-family="Lato-Bold, Lato" font-size="35" font-weight="bold" fill="#4A4A4A">
+                <tspan x="1992.80625" y="902">action/</tspan>
+                <tspan x="1968.2975" y="944">resolution</tspan>
+            </text>
+            <path d="M2048.5,766.5 L2013.5,838.5" id="Line" stroke="#979797" stroke-width="5" stroke-linecap="square" transform="translate(2031.000000, 802.500000) scale(-1, 1) translate(-2031.000000, -802.500000) "></path>
+            <use id="Rectangle" stroke="#979797" mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>
