@@ -971,6 +971,40 @@ footer img {
     text-align: center;
 }
 
+.securitypulse-top-bar {
+    color: #333;
+    padding: 150px 0 150px;
+    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/securitypulse/hifi.png);
+    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/securitypulse/hifi.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    text-align: center;
+}
+
+.akpsi-top-bar {
+    color: #333;
+    padding: 150px 0 150px;
+    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/akpsi/cover.png);
+    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/akpsi/cover.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    text-align: center;
+}
+
+.prantls-top-bar {
+    color: #333;
+    padding: 150px 0 150px;
+    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/prantls/redesign.png);
+    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/prantls/redesign.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    text-align: center;
+}
+
+
 .top-bar h1 {
     font-size: 60px;
 /*    text-transform: uppercase;*/
